@@ -9,3 +9,4 @@ memory_profiler
 streamlit
 flask
 streamlit
+ipykernel
