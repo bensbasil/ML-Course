@@ -10,3 +10,4 @@ streamlit
 flask
 streamlit
 ipykernel
+kneed
