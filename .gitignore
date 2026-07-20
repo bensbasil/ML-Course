@@ -1,0 +1,9 @@
+# Python virtual environments
+Docker/deployment/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/

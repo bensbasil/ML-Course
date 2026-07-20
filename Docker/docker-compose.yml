@@ -1,0 +1,18 @@
+ version: "3.0"
+ services:
+  web:
+    image: web-app
+    build: .
+    ports:
+      - "8000:5000"
+
+  redis:
+    image: redis
+
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: testdb
+    ports:
+      - "3306:3306"
